@@ -1,12 +1,7 @@
 # The Root
 ## Command: hello
 ## Flag: pwn.college{4yHLrEN3gN8wC1Wrj7i7jnQoQWm.dhzN5QDL1ADO0czW}
-
-
-
-
-
-
+<br> <br>
 # Program and Absolute Paths
 ## Command: hello hacker
 ## Flag:
