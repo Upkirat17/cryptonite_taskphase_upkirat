@@ -47,8 +47,15 @@
 <br><br>
 
 ## An Epic Filesystem Quest 
-### command: 
-### flag:
+### command:  ![image](https://github.com/user-attachments/assets/1bdef526-116e-411a-8d01-fe46433efdf4)
+![image](https://github.com/user-attachments/assets/1e0e555c-6345-44bf-9907-4c4aa5b7cf22)
+
+
+
+### flag: pwn.college{EetYgLwL_u3zdJOy-6SdtA_LK6t.dljM4QDL1ADO0czW}
+### Thought process
+<br> 
+This challenge required me to read every instruction carefully. Without reading every instruction, I proceeded first and failed multiple times. The first trapped file got me 2 times, but after that it was a breeze. 
 <br><br>
 
 ## making directories
