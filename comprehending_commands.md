@@ -28,33 +28,42 @@
 ### flag: pwn.college{c-0WzkKWIx_-325hY1s255EM5JI.dhjM4QDL1ADO0czW}****
 <br><br>
 
-## 
+##  touching files
+### command: ![image](https://github.com/user-attachments/assets/ad776a77-3d34-4ff6-a28f-ca0b127d7989)
+
+### flag: pwn.college{46fQ-Ik5YBrde3jR5qV52hXgsod.dBzM4QDL1ADO0czW}
+<br><br>
+
+## removing files
+### command: ![image](https://github.com/user-attachments/assets/f508d873-f61a-42ce-8896-664b1b1ee0b5)
+
+### flag: pwn.college{QkEshHef4G7gHNdAdWOJAyXKfbb.dZTOwUDL1ADO0czW}
+<br><br>
+
+## hidden files
+### command: ![image](https://github.com/user-attachments/assets/f27712e4-dd65-4247-8bbc-d858175fa608)
+
+### flag: pwn.college{MkFkdqxngVLRexVpUfaxCQB0QO2.dBTN4QDL1ADO0czW}
+<br><br>
+
+## An Epic Filesystem Quest 
+### command: 
+### flag:
+<br><br>
+
+## making directories
 ### command:
 ### flag:
 <br><br>
 
-## 
+## finding files
 ### command:
 ### flag:
 <br><br>
 
-## 
+## linking files 
 ### command:
 ### flag:
 <br><br>
 
-## 
-### command:
-### flag:
-<br><br>
-
-## 
-### command:
-### flag:
-<br><br>
-
-## 
-### command:
-### flag:
-<br><br>
 
