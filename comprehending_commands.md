@@ -59,8 +59,9 @@ This challenge required me to read every instruction carefully. Without reading 
 <br><br>
 
 ## making directories
-### command:
-### flag:
+### command: ![image](https://github.com/user-attachments/assets/33eb851d-c0e1-495b-8bef-10bf1fe0c187)
+
+### flag: pwn.college{w4TyJs_kc3BcV6j5s3YyrgLJ2mD.dFzM4QDL1ADO0czW}
 <br><br>
 
 ## finding files
