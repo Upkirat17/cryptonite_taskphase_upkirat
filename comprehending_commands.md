@@ -65,8 +65,12 @@ This challenge required me to read every instruction carefully. Without reading 
 <br><br>
 
 ## finding files
-### command:
-### flag:
+### command:![image](https://github.com/user-attachments/assets/970b406c-e3a9-48b9-ba6e-ca4f9b6048ea)
+
+### flag: pwn.college{gtuIcNRXS9Fmnc4YoKAQ8yRddhD.dJzM4QDL1ADO0czW}
+### Thought process
+<br>
+This challenge had the flag hidden in a random file. Had to go through multiple files to finally find the one with the flag.
 <br><br>
 
 ## linking files 
