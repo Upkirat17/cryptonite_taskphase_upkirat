@@ -74,8 +74,12 @@ This challenge had the flag hidden in a random file. Had to go through multiple 
 <br><br>
 
 ## linking files 
-### command:
-### flag:
+### command: ![image](https://github.com/user-attachments/assets/64be1879-ea20-4ba5-a474-c03f510a8758)
+
+### flag:pwn.college{wVfrS2jmIqwDx57ypmLXHyIX0aq.dlTM1UDL1ADO0czW}
+### Thought process:
+<br>
+This was difficult for me. I couldn't figure out how to proceed so I asked ChatGPT and it explained it.
 <br><br>
 
 
