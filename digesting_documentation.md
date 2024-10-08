@@ -21,8 +21,10 @@
 
 ## Searching Manuals
 ### command: 
+
+![image](https://github.com/user-attachments/assets/f7f6ec07-541b-458c-aa84-0a67a5ebb7bb)
+
 ![image](https://github.com/user-attachments/assets/7733533f-3223-4c8c-a926-c3babf21545f)
-![Uploading image.png…]()
 
 
 ### flag: pwn.college{85NOvNGYGoNrRtj_Ovnvc4mLbR8.dVTM4QDL1ADO0czW}
