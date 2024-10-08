@@ -32,12 +32,18 @@
 
 
 ## Searching For Manuals
-### command: 
-### flag: 
+### command: ![image](https://github.com/user-attachments/assets/68c5a0e3-85e2-41c4-b407-2792825e51bd)
+![image](https://github.com/user-attachments/assets/150a7d30-0b97-4442-8cbe-4670448b41bb)
+
+
+### flag: pwn.college{s6W1uABzSGMvuftAVmjd-6G3oeI.dZTM4QDL1ADO0czW}
+<br>
+### Thought process
+Had to spend an unholy amount of time trying to understand what needed to be done. Upon carefully reading the manual, I tried man -K 1 /challenge/challenge and it finally gave an output that was not "permission denied". So I went fromn there and applied everything I had learned so far and extracted the flag.
 <br><br>
 
 
-## 
+## Helpful Programs
 ### command: 
 ### flag: 
 <br><br>
