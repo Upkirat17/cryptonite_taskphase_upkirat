@@ -44,44 +44,17 @@ Had to spend an unholy amount of time trying to understand what needed to be don
 
 
 ## Helpful Programs
-### command: 
-### flag: 
+### command:  ![image](https://github.com/user-attachments/assets/eaabb39a-dd03-4606-b131-8fff49de37fc)
+
+### flag: pwn.college{8ZZhKCDCD--N0faGEVfnQcSixiB.ddjM4QDL1ADO0czW}
 <br><br>
 
 
-## 
-### command: 
-### flag: 
+## Help for builtins
+### command: ![image](https://github.com/user-attachments/assets/f54fb401-ee2e-4b21-82a5-81d24a74bc4a)
+
+### flag: pwn.college{4k4UeUexIDjWAdTQsbfvYXTjnn3.dRTM5QDL1ADO0czW}
 <br><br>
 
-
-## 
-### command: 
-### flag: 
-<br><br>
-
-
-## 
-### command: 
-### flag: 
-<br><br>
-
-
-## 
-### command: 
-### flag: 
-<br><br>
-
-
-## 
-### command: 
-### flag: 
-<br><br>
-
-
-## 
-### command: 
-### flag: 
-<br><br>
 
 
