@@ -13,19 +13,23 @@
 
 
 ## Reading Manuals
-### command: ![Uploading image.png…]()
+### command: ![image](https://github.com/user-attachments/assets/0c23590a-3727-461b-9eaf-18051bb42c1f)
 
 ### flag: pwn.college{kJCEIEc5AbgZdu7_q3R57mjFg7K.dRTM4QDL1ADO0czW}
 <br><br>
 
 
-## 
+## Searching Manuals
 ### command: 
-### flag: 
+![image](https://github.com/user-attachments/assets/7733533f-3223-4c8c-a926-c3babf21545f)
+![Uploading image.png…]()
+
+
+### flag: pwn.college{85NOvNGYGoNrRtj_Ovnvc4mLbR8.dVTM4QDL1ADO0czW}
 <br><br>
 
 
-## 
+## Searching For Manuals
 ### command: 
 ### flag: 
 <br><br>
