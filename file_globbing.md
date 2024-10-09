@@ -3,13 +3,14 @@
 
 ### flag: pwn.college{klZgTBX1GdcZYxKqiJaOMP-FdX1.dFjM4QDL1ADO0czW}
 
-
+ran cd /*ge and then /challenge/run as instructed in the question.
 
 <br><br>
 
-## 
-### command:
-### flag: 
+## Matching with ?
+### command: ![image](https://github.com/user-attachments/assets/ce3efa64-af11-4426-96e2-d4abf4d20ea1)
+
+### flag: pwn.college{8z3aSo1lKQ5aCdY5gN_GCaoRMNh.dJjM4QDL1ADO0czW}
 
 
 
