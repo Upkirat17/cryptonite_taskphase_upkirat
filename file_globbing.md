@@ -16,7 +16,7 @@ very similar to the first question. i did cd /?ha??enge and then /challenge/run 
 
 
 <br><br>
-## Matching with []
+## Matching With []
 ### command: ![image](https://github.com/user-attachments/assets/e6ba0183-4981-4146-8fb9-e12b18652144)
 
 ### flag: pwn.college{AvSUy7P_wDHIoW0G5EpXDa7oA99.dNjM4QDL1ADO0czW}
@@ -31,11 +31,11 @@ very similar to the first question. i did cd /?ha??enge and then /challenge/run 
 
 ### flag: pwn.college{0UG8AqZ1Y6Hpm0GYQD7M6h8lQpD.dRjM4QDL1ADO0czW}
 
-Rajn the command /challenge/run with the argumne
+Rajn the command /challenge/run with the argument /challenge/files/file_[bash] as instructed in the question
 
 <br><br>
-## 
-### command:
+## Mixing Globs
+### command: 
 ### flag: 
 
 
