@@ -12,19 +12,22 @@ ran cd /*ge and then /challenge/run as instructed in the question.
 
 ### flag: pwn.college{8z3aSo1lKQ5aCdY5gN_GCaoRMNh.dJjM4QDL1ADO0czW}
 
+very similar to the first question. i did cd /?ha??enge and then /challenge/run to get the flag.
 
 
 <br><br>
-## 
-### command:
-### flag: 
+## Matching with []
+### command: ![image](https://github.com/user-attachments/assets/e6ba0183-4981-4146-8fb9-e12b18652144)
+
+### flag: pwn.college{AvSUy7P_wDHIoW0G5EpXDa7oA99.dNjM4QDL1ADO0czW}
 
 
 
 <br><br>
 
-## 
-### command:
+## Matching Paths with []
+### command: 
+
 ### flag: 
 
 
