@@ -1,5 +1,5 @@
 ## Matching with *
-> ran cd /*ge and then ```/challenge/run``` as instructed in the question.
+> ran ```cd /*ge``` and then ```/challenge/run``` as instructed in the question.
 <br>
 ### command: ![image](https://github.com/user-attachments/assets/c4255d57-9736-4c93-b926-7694399626ed)
 
