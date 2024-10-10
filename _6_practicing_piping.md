@@ -55,34 +55,37 @@ Just had to redirect ```COLLEGE` ``` to a file called ```PWN``` and then redirec
 ### flag: pwn.college{sOUoBUvhbQnReNpCs9kVuO6f_Qi.dBzN1QDL1ADO0czW}
 <br><br>
 
-## 
-
+## Grepping stored results
+Simple concept, simple execution. Run command, store output in a file, use that output as the input of another command and boom!
 <br>
 
-### command: 
+### command: ![image](https://github.com/user-attachments/assets/e0f21248-2031-44fe-ab46-6fa106d2a26b)
 
-### flag: 
+
+### flag: pwn.college{IeP2PT3n99YFHTuDDdDIdAcEkHc.dhTM4QDL1ADO0czW}
 <br><br>
 
-## 
-
+## Grepping live output
+This is another way to do the same thing as the previous question. The pipe operator was introduced which eliminates the need for a new file.
 <br>
 
-### command: 
+### command: ![image](https://github.com/user-attachments/assets/a5489bf0-c79e-4a0b-aefa-aac212076a90)
 
-### flag: 
+
+### flag: pwn.college{4DtMftRnxUSFaRk7-q8DQswmhDY.dlTM4QDL1ADO0czW}
 <br><br>
 
-## 
-
+## Greppinng errors
+Learned how to change one file descriptor to another using ```>&```. 
 <br>
 
-### command: 
+### command: ![image](https://github.com/user-attachments/assets/f2cb7579-da17-48ef-90fb-4f3ac4c01413)
 
-### flag: 
+
+### flag: pwn.college{Quh6KidET9eL6FXtKVXFJI4vKTL.dVDM5QDL1ADO0czW}
 <br><br>
 
-## 
+## Dupllcating piped date with tee
 
 <br>
 
