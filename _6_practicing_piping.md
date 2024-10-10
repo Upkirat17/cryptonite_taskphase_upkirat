@@ -21,22 +21,27 @@ This program was fun imo. Had to redirect ```/challenge/run``` to a file called 
 ### flag: pwn.college{sKEJIY5arPHpJvpV3XnFrpVauwK.dVjN1QDL1ADO0czW}
 <br><br>
 
-## 
-
+## Appemding Output
+The question was slightly tricky to understand but a few minutes of trial and error got me the flag. Tried the program multiple times in different ways to understand exactly what was happening.
 <br>
 
-### command: 
+### command: ![image](https://github.com/user-attachments/assets/db2fca98-2c3f-4257-9c17-6a231256da6f)
+![image](https://github.com/user-attachments/assets/d77d40b3-3351-47e3-8671-bcca8ddd297b)
 
-### flag: 
+
+
+### flag: pwn.college{4Qp7FqnU6dFqfkI6D780hKV4FBL.ddDM5QDL1ADO0czW}
 <br><br>
 
-## 
+## Redirecting Errors
 
+Very simple. Just had to type out the command as given in the question.
 <br>
 
-### command: 
+### command: ![image](https://github.com/user-attachments/assets/908aaa39-d005-43a8-a031-45fab8bb9eb1)
 
-### flag: 
+
+### flag: pwn.college{M3OHgi6Bl9-XSeCAtqchasPa2Ng.ddjN1QDL1ADO0czW}
 <br><br>
 
 ## 
