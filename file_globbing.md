@@ -17,6 +17,8 @@ very similar to the first question. i did ```cd /?ha??enge``` and then /challeng
 
 <br><br>
 ## Matching With []
+> just had to do ```/challenge/run file_[bash]``` after CD-ing into ```/challenge/files```
+<br>
 ### command: ![image](https://github.com/user-attachments/assets/e6ba0183-4981-4146-8fb9-e12b18652144)
 
 ### flag: pwn.college{AvSUy7P_wDHIoW0G5EpXDa7oA99.dNjM4QDL1ADO0czW}
@@ -26,20 +28,24 @@ very similar to the first question. i did ```cd /?ha??enge``` and then /challeng
 <br><br>
 
 ## Matching Paths with []
+> Ran the command ```/challenge/run``` with the argument ```/challenge/files/file_[bash]``` as instructed in the question
+<br>
 ### command: ![image](https://github.com/user-attachments/assets/f0a7835c-c054-44e3-bca4-f7491f65e56f)
 
 
 ### flag: pwn.college{0UG8AqZ1Y6Hpm0GYQD7M6h8lQpD.dRjM4QDL1ADO0czW}
 
-Rajn the command ```/challenge/run``` with the argument ```/challenge/files/file_[bash]``` as instructed in the question
+
 
 <br><br>
 ## Mixing Globs
+> This took me very long. Had to think a lot and read all the previous modules over and over again to figure out what I needed to do.
+<br>
 ### command: ![image](https://github.com/user-attachments/assets/cca2e860-4c46-47db-8961-acfc03d681ff)
 
 ### flag: pwn.college{U3Ld0aLkujyOw3d2mkMc4w_uO4s.dVjM4QDL1ADO0czW}
 
-> This took me very long. Had to think a lot and read all the previous modules over and over again to figure out what I needed to do. 
+
 
 <br><br>
 
