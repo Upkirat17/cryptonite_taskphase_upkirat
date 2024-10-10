@@ -97,16 +97,17 @@ Learned how to pipe a command using tee. Took a very long time, but I finally un
 ### flag: pwn.college{gnTGENUBd8kT2dBIOtuKBU0xEI6.dFjM5QDL1ADO0czW}
 <br><br>
 
-## 
-
+## Writing to multiple programs
+Learned how to redirect to multiple files using tee.
 <br>
 
-### command: 
+### command: ![image](https://github.com/user-attachments/assets/2d80feee-dfd1-41a0-81b6-6fa69e7811f1)
 
-### flag: 
+
+### flag: pwn.college{c2XcXY5aex49JahAGA8VxHNry7T.dBDO0UDL1ADO0czW}****
 <br><br>
 
-## 
+## Split-piping stderr and stdout
 
 <br>
 
