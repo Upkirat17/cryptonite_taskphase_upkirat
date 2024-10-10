@@ -44,13 +44,15 @@ Very simple. Just had to type out the command as given in the question.
 ### flag: pwn.college{M3OHgi6Bl9-XSeCAtqchasPa2Ng.ddjN1QDL1ADO0czW}
 <br><br>
 
-## 
+##  Redirecting Input
+Just had to redirect ```COLLEGE` ``` to a file called ```PWN``` and then redirecting that file to ```/challenege/run```
 
 <br>
 
-### command: 
+### command: ![image](https://github.com/user-attachments/assets/7bf11287-2ab7-4ec9-b75b-3567f848eb54)
 
-### flag: 
+
+### flag: pwn.college{sOUoBUvhbQnReNpCs9kVuO6f_Qi.dBzN1QDL1ADO0czW}
 <br><br>
 
 ## 
