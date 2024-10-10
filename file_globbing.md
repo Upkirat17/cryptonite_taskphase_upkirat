@@ -11,7 +11,7 @@
 <br><br>
 
 ## Matching with ?
-> very similar to the first question. i did ```cd /?ha??enge``` and then /challenge/run to get the flag.
+very similar to the first question. i did ```cd /?ha??enge``` and then /challenge/run to get the flag.
 <br>
 
 ### command: ![image](https://github.com/user-attachments/assets/ce3efa64-af11-4426-96e2-d4abf4d20ea1)
@@ -23,7 +23,7 @@
 
 <br><br>
 ## Matching With []
-> just had to do ```/challenge/run file_[bash]``` after CD-ing into ```/challenge/files```
+ just had to do ```/challenge/run file_[bash]``` after CD-ing into ```/challenge/files```
 
 <br>
 
@@ -36,7 +36,7 @@
 <br><br>
 
 ## Matching Paths with []
-> Ran the command ```/challenge/run``` with the argument ```/challenge/files/file_[bash]``` as instructed in the question
+ Ran the command ```/challenge/run``` with the argument ```/challenge/files/file_[bash]``` as instructed in the question
 <br>
 
 ### command: ![image](https://github.com/user-attachments/assets/f0a7835c-c054-44e3-bca4-f7491f65e56f)
@@ -48,7 +48,7 @@
 
 <br><br>
 ## Mixing Globs
-> This took me very long. Had to think a lot and read all the previous modules over and over again to figure out what I needed to do.
+ This took me very long. Had to think a lot and read all the previous modules over and over again to figure out what I needed to do.
 <br>
 
 ### command: ![image](https://github.com/user-attachments/assets/cca2e860-4c46-47db-8961-acfc03d681ff)
@@ -58,10 +58,14 @@
 
 
 <br><br>
+## Exclusionary Globbing
+Wasn't that difficult after the previous question.
 
-## 
-### command:
-### flag: 
+<br>
+
+### command: ![image](https://github.com/user-attachments/assets/c796b07a-2006-4c43-8afc-034569417a88)
+
+### flag: pwn.college{wVxJtpreklhIQuvCPPn5F7d-Qtz.dZjM4QDL1ADO0czW}
 
 
 
