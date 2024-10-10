@@ -85,13 +85,16 @@ Learned how to change one file descriptor to another using ```>&```.
 ### flag: pwn.college{Quh6KidET9eL6FXtKVXFJI4vKTL.dVDM5QDL1ADO0czW}
 <br><br>
 
-## Dupllcating piped date with tee
+## Duplicating piped date with tee
+
+Learned how to pipe a command using tee. Took a very long time, but I finally understood how the pipe command works.
 
 <br>
 
-### command: 
+### command: ![image](https://github.com/user-attachments/assets/8ecc377c-00b5-497f-a52b-42ebb7fb88c7)
 
-### flag: 
+
+### flag: pwn.college{gnTGENUBd8kT2dBIOtuKBU0xEI6.dFjM5QDL1ADO0czW}
 <br><br>
 
 ## 
