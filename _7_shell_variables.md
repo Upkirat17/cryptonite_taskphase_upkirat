@@ -29,19 +29,23 @@ Learned how to set variables and also learned that ```$``` is only used to 'acce
 
 ### Flag: ``` pwn.college{Et9m_RQ4vvjEVyuNxoGQHSdnIjD.dlTN1QDL1ADO0czW} ```
 
-##
+## Multi-word Variables
 
 ### Code:
 ```bash
-
+hacker@variables~multi-word-variables:~$ PWN="COLLEGE YEAH"
+You've set the PWN variable properly! As promised, here is the flag:
+pwn.college{oMdv6U3GVIhUCknpFBdGmW9dV8c.dBjN1QDL1ADO0czW}
+hacker@variables~multi-word-variables:~$
 ```
 <br>
 
 ### Lesson
+Learned that you can't add a space when assigning variables  without using ```" "```. 
 
 <br>
 
-### Flag: ``` ```
+### Flag: ```pwn.college{oMdv6U3GVIhUCknpFBdGmW9dV8c.dBjN1QDL1ADO0czW} ```
 
 ##
 
