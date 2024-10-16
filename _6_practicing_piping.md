@@ -109,6 +109,7 @@ Learned how to redirect to multiple files using tee.
 
 ## Split-piping stderr and stdout
 
+I struggled a lot with this one. Kept messing up the syntax by doing ```>>``` instead of ```> >``` and the same thing with ```2> >```. Finally got it right after reading online explanations on how to redirect stdout and stderr at the same time. I'm not able to figure how to use ```|``` though.
 <br>
 
 ### command: ![image](https://github.com/user-attachments/assets/18bf367f-eb2b-4f9f-8bdb-1a146853aa64)
