@@ -111,8 +111,9 @@ Learned how to redirect to multiple files using tee.
 
 <br>
 
-### command: 
+### command: ![image](https://github.com/user-attachments/assets/18bf367f-eb2b-4f9f-8bdb-1a146853aa64)
 
-### flag: 
+
+### flag: ``pwn.college{8x_tPl1fvNFANiVc5fqiarzCMuO.dFDNwYDL1ADO0czW}``
 <br><br>
 
