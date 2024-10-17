@@ -42,6 +42,7 @@ Now I will sleep for a while (so that you could find me with 'ps').
 ## Killing Processes
 
 <br>
+
 ### Lesson: 
 Learned how to terminate a process using the ```kill``` command. Also got remindind of how piping works in the example question and applied that very principle in the answer too. 
 
@@ -68,9 +69,181 @@ pwn.college{wAEU0npf7byZz0lWvfU8ySaFSWp.dJDN4QDL1ADO0czW}
 <br>
 ### Flag: pwn.college{wAEU0npf7byZz0lWvfU8ySaFSWp.dJDN4QDL1ADO0czW}
 
-## 
+## Interrupting Processes
 
 <br>
+
+### Lesson: 
+Leanred how to interrupt a program without terminating it by pressing ```Ctrl + C```
+<br>
+### Code 
+
+```bash
+hacker@processes~interrupting-processes:~$ /challenge/run
+I could give you the flag... but I won't, until this process exits. Remember,
+you can force me to exit with Ctrl-C. Try it now!
+^C
+Good job! You have used Ctrl-C to interrupt this process! Here is your flag:
+pwn.college{EZlmVjKAi87EAJ_TrIZJFORR_L3.dNDN4QDL1ADO0czW}
+```
+<br>
+### Flag: pwn.college{EZlmVjKAi87EAJ_TrIZJFORR_L3.dNDN4QDL1ADO0czW}
+
+## Suspending Processes
+
+<br>
+
+### Lesson: 
+Learned how to suspend processes to the background by holding ```Ctrl+Z```. Also learned that a copy of the process can be launched while it's suspended to the background.
+<br>
+### Code 
+
+```bash
+hacker@processes~suspending-processes:~$ /challenge/run
+I'll only give you the flag if there's already another copy of me running in
+this terminal... Let's check!
+
+UID          PID    PPID  C STIME TTY          TIME CMD
+root          82      65  0 19:31 pts/0    00:00:00 bash /challenge/run
+root          84      82  0 19:31 pts/0    00:00:00 ps -f
+
+I don't see a second me!
+
+To pass this level, you need to suspend me and launch me again! You can
+background me with Ctrl-Z or, if you're not ready to do that for whatever
+reason, just hit Enter and I'll exit!
+^Z
+[1]+  Stopped                 /challenge/run
+hacker@processes~suspending-processes:~$ /challenge/run
+I'll only give you the flag if there's already another copy of me running in
+this terminal... Let's check!
+
+UID          PID    PPID  C STIME TTY          TIME CMD
+root          82      65  0 19:31 pts/0    00:00:00 bash /challenge/run
+root          89      65  0 19:31 pts/0    00:00:00 bash /challenge/run
+root          91      89  0 19:31 pts/0    00:00:00 ps -f
+
+Yay, I found another version of me! Here is the flag:
+pwn.college{ULcb4WQ1Yj4Ij-bxqC5pXtKU2zI.dVDN4QDL1ADO0czW}
+```
+<br>
+### Flag: pwn.college{ULcb4WQ1Yj4Ij-bxqC5pXtKU2zI.dVDN4QDL1ADO0czW}
+
+## Resuming Processes
+
+<br>
+
+### Lesson: 
+Learned how to resume processes by using ```fg``` command that puts a suspended task back onto the terminal.
+<br>
+### Code 
+
+```bash
+hacker@processes~resuming-processes:~$ /challenge/run
+Let's practice resuming processes! Suspend me with Ctrl-Z, then resume me with
+the 'fg' command! Or just press Enter to quit me!
+^Z
+[1]+  Stopped                 /challenge/run
+hacker@processes~resuming-processes:~$ fg
+/challenge/run
+I'm back! Here's your flag:
+pwn.college{gsbWaIL5yk3p6s5yFLfqp6sijs9.dZDN4QDL1ADO0czW}
+Don't forget to press Enter to quit me!
+
+Goodbye!
+```
+<br>
+### Flag: pwn.college{gsbWaIL5yk3p6s5yFLfqp6sijs9.dZDN4QDL1ADO0czW}
+
+## Backgrounding Processes
+
+<br>
+
+### Lesson:
+Learned how to resume suspended processes in the background using ```bg``` command.
+<br>
+### Code 
+
+```bash
+hacker@processes~backgrounding-processes:~$ /challenge/run
+I'll only give you the flag if there's already another copy of me running *and
+not suspended* in this terminal... Let's check!
+
+UID          PID STAT CMD
+root          82 S+   bash /challenge/run
+root          84 R+   ps -o user=UID,pid,stat,cmd
+
+I don't see a second me!
+
+To pass this level, you need to suspend me, resume the suspended process in the
+background, and then launch a new version of me! You can background me with
+Ctrl-Z (and resume me in the background with 'bg') or, if you're not ready to
+do that for whatever reason, just hit Enter and I'll exit!
+^Z
+[1]+  Stopped                 /challenge/run
+hacker@processes~backgrounding-processes:~$ bg
+[1]+ /challenge/run &
+
+
+
+Yay, I'm now running the background! Because of that, this text will probably
+overlap weirdly with the shell prompt. Don't panic; just hit Enter a few times
+to scroll this text out.
+hacker@processes~backgrounding-processes:~$ /challenge/run
+I'll only give you the flag if there's already another copy of me running *and
+not suspended* in this terminal... Let's check!
+
+UID          PID STAT CMD
+root          82 S    bash /challenge/run
+root          92 S    sleep 6h
+root          93 S+   bash /challenge/run
+root          95 R+   ps -o user=UID,pid,stat,cmd
+
+Yay, I found another version of me running in the background! Here is the flag:
+pwn.college{cVh5plnkHUHUAocHSAr88qgAyb4.ddDN4QDL1ADO0czW}
+```
+<br>
+### Flag: pwn.college{cVh5plnkHUHUAocHSAr88qgAyb4.ddDN4QDL1ADO0czW}
+
+## Foregrounding Processes 
+
+<br>
+
+### Lesson: 
+
+<br>
+### Code 
+
+```bash
+hacker@processes~foregrounding-processes:~$ /challenge/run
+To pass this level, you need to suspend me, resume the suspended process in the
+background, and *then* foreground it without re-suspending it! You can
+background me with Ctrl-Z (and resume me in the background with 'bg') or, if
+you're not ready to do that for whatever reason, just hit Enter and I'll exit!
+^Z
+[1]+  Stopped                 /challenge/run
+hacker@processes~foregrounding-processes:~$ bg
+[1]+ /challenge/run &
+
+
+
+Yay, I'm now running the background! Because of that, this text will probably
+overlap weirdly with the shell prompt. Don't panic; just hit Enter a few times
+to scroll this text out. After that, resume me into the foreground with 'fg';
+I'll wait.
+hacker@processes~foregrounding-processes:~$ fg
+/challenge/run
+YES! Great job! I'm now running in the foreground. Hit Enter for your flag!
+
+pwn.college{0vq-4iPv6DdAVay_LG4z7Pz2RYE.dhDN4QDL1ADO0czW}
+```
+<br>
+### Flag: pwn.college{0vq-4iPv6DdAVay_LG4z7Pz2RYE.dhDN4QDL1ADO0czW}
+
+## Starting Backgrounded Processes
+
+<br>
+
 ### Lesson: 
 
 <br>
@@ -81,116 +254,3 @@ pwn.college{wAEU0npf7byZz0lWvfU8ySaFSWp.dJDN4QDL1ADO0czW}
 ```
 <br>
 ### Flag: 
-
-## 
-
-<br>
-### Lesson: 
-
-<br>
-### Code 
-
-```bash
-
-```
-<br>
-### Flag: 
-
-## 
-
-<br>
-### Lesson: 
-
-<br>
-### Code 
-
-```bash
-
-```
-<br>
-### Flag: 
-
-## 
-
-<br>
-### Lesson: 
-
-<br>
-### Code 
-
-```bash
-
-```
-<br>
-### Flag: 
-
-## 
-
-<br>
-### Lesson: 
-
-<br>
-### Code 
-
-```bash
-
-```
-<br>
-### Flag: 
-
-## 
-
-<br>
-### Lesson: 
-
-<br>
-### Code 
-
-```bash
-
-```
-<br>
-### Flag: 
-
-## 
-
-<br>
-### Lesson: 
-
-<br>
-### Code 
-
-```bash
-
-```
-<br>
-### Flag: 
-
-## 
-
-<br>
-### Lesson: 
-
-<br>
-### Code 
-
-```bash
-
-```
-<br>
-### Flag: 
-
-## 
-
-<br>
-### Lesson: 
-
-<br>
-### Code 
-
-```bash
-
-```
-<br>
-### Flag: 
-
