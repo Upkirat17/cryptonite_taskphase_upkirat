@@ -3,19 +3,19 @@
 ### Lesson:  
 Learned how to use the ```ps``` funcion along with it's arguemtents like ```ef``` and ```aux```.
 
-```ps``` - Lists the processes running
+```ps``` - Lists the processes running <br>
 Standard Syntax:
-``` ps -e``` - Lists every process
-``` ps -f``` - Gives full format output
-``` ps -ef``` - Makes use of ```e``` and ```f``` together.
+``` ps -e``` - Lists every process <br>
+``` ps -f``` - Gives full format output <br>
+``` ps -ef``` - Makes use of ```e``` and ```f``` together. <br>
 
 BSD Syntax:
-```ps a``` - Lists processes for all users.
-``` ps u ``` - Gives a user readable output
-``` ps x ``` - To list processes that aren't running on terminal.
-``` ps aux``` - Combine it all into a single argument
+```ps a``` - Lists processes for all users. <br>
+``` ps u ``` - Gives a user readable output. <br>
+``` ps x ``` - To list processes that aren't running on terminal. <br>
+``` ps aux``` - Combine it all into a single argument. <br>
 
-```ps -ef``` and ```ps aux``` result in slightly different but cross-recognizable outputs.
+```ps -ef``` and ```ps aux``` result in slightly different but cross-recognizable outputs. <br>
 
 <br>
 ### Code 
