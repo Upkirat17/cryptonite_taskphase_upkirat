@@ -41,8 +41,6 @@ Now I will sleep for a while (so that you could find me with 'ps').
 
 ## Killing Processes
 
-<br>
-
 ### Lesson: 
 Learned how to terminate a process using the ```kill``` command. Also got remindind of how piping works in the example question and applied that very principle in the answer too. 
 
@@ -71,7 +69,6 @@ pwn.college{wAEU0npf7byZz0lWvfU8ySaFSWp.dJDN4QDL1ADO0czW}
 
 ## Interrupting Processes
 
-<br>
 
 ### Lesson: 
 Leanred how to interrupt a program without terminating it by pressing ```Ctrl + C```
@@ -90,8 +87,6 @@ pwn.college{EZlmVjKAi87EAJ_TrIZJFORR_L3.dNDN4QDL1ADO0czW}
 ### Flag: pwn.college{EZlmVjKAi87EAJ_TrIZJFORR_L3.dNDN4QDL1ADO0czW}
 
 ## Suspending Processes
-
-<br>
 
 ### Lesson: 
 Learned how to suspend processes to the background by holding ```Ctrl+Z```. Also learned that a copy of the process can be launched while it's suspended to the background.
@@ -131,7 +126,6 @@ pwn.college{ULcb4WQ1Yj4Ij-bxqC5pXtKU2zI.dVDN4QDL1ADO0czW}
 
 ## Resuming Processes
 
-<br>
 
 ### Lesson: 
 Learned how to resume processes by using ```fg``` command that puts a suspended task back onto the terminal.
