@@ -236,7 +236,27 @@ pwn.college{0vq-4iPv6DdAVay_LG4z7Pz2RYE.dhDN4QDL1ADO0czW}
 
 ## Starting Backgrounded Processes
 
+### Lesson: 
+
 <br>
+### Code 
+
+```bash
+hacker@processes~starting-backgrounded-processes:~$ /challenge/run &
+[1] 82
+
+
+
+Yay, you started me in the background! Because of that, this text will probably
+overlap weirdly with the shell prompt, but you're used to that by now...
+
+Anyways! Here is your flag!
+pwn.college{EGpT_gNBuS-YS_bRef5D3LoX9W0.dlDN4QDL1ADO0czW}
+```
+<br>
+### Flag: pwn.college{EGpT_gNBuS-YS_bRef5D3LoX9W0.dlDN4QDL1ADO0czW}
+
+## Process Exit Codes
 
 ### Lesson: 
 
@@ -248,3 +268,4 @@ pwn.college{0vq-4iPv6DdAVay_LG4z7Pz2RYE.dhDN4QDL1ADO0czW}
 ```
 <br>
 ### Flag: 
+/
