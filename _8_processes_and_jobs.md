@@ -1,7 +1,6 @@
 ## Listing Processes
 
-<br>
-### Lesson: 
+### Lesson:  
 Learned how to use the ```ps``` funcion along with it's arguemtents like ```ef``` and ```aux```.
 
 ```ps``` - Lists the processes running
