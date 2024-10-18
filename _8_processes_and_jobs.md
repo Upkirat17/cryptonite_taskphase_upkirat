@@ -44,7 +44,7 @@ Now I will sleep for a while (so that you could find me with 'ps').
 ## Killing Processes
 
 ### Lesson: 
-Learned how to terminate a process using the ```kill``` command. Also got remindind of how piping works in the example question and applied that very principle in the answer too. 
+Learned how to terminate a process using the ```kill``` command. Also got reminded of how piping works in the example question and applied that very principle in the answer too. 
 
 <br>  
 
