@@ -275,15 +275,24 @@ pwn.college{EGpT_gNBuS-YS_bRef5D3LoX9W0.dlDN4QDL1ADO0czW}
 ## Process Exit Codes
 
 ### Lesson: 
-
+Learned how to access the exit code of the most recently terminated command using ```?``` and prepending it with ```$```.
+Process:
+1. Run the command
+2. ```echo $?```      
 <br>  
 
 ### Code 
 
 ```bash
-
+hacker@processes~process-exit-codes:~$ /challenge/get-code
+Exiting with an error code!
+hacker@processes~process-exit-codes:~$ echo $?
+19
+hacker@processes~process-exit-codes:~$ /challenge/submit-code 19
+CORRECT! Here is your flag:
+pwn.college{YnfHfWCxrRalJViaQ8l4O71K84_.dljN4UDL1ADO0czW}
 ```
 <br>  
 
-### Flag: 
-/
+### Flag: pwn.college{YnfHfWCxrRalJViaQ8l4O71K84_.dljN4UDL1ADO0czW}
+
