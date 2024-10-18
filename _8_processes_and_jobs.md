@@ -189,8 +189,6 @@ do that for whatever reason, just hit Enter and I'll exit!
 hacker@processes~backgrounding-processes:~$ bg
 [1]+ /challenge/run &
 
-
-
 Yay, I'm now running the background! Because of that, this text will probably
 overlap weirdly with the shell prompt. Don't panic; just hit Enter a few times
 to scroll this text out.
@@ -216,7 +214,7 @@ pwn.college{cVh5plnkHUHUAocHSAr88qgAyb4.ddDN4QDL1ADO0czW}
 <br>  
 
 ### Lesson: 
-
+Learned how to move a backgrounded process to the foreground using ```fg```. 
 <br>  
 
 ### Code 
@@ -251,7 +249,7 @@ pwn.college{0vq-4iPv6DdAVay_LG4z7Pz2RYE.dhDN4QDL1ADO0czW}
 ## Starting Backgrounded Processes
 
 ### Lesson: 
-
+Learned how start processes in the background using ```&```
 <br>  
 
 ### Code 
@@ -271,6 +269,8 @@ pwn.college{EGpT_gNBuS-YS_bRef5D3LoX9W0.dlDN4QDL1ADO0czW}
 <br>
 
 ### Flag: pwn.college{EGpT_gNBuS-YS_bRef5D3LoX9W0.dlDN4QDL1ADO0czW}
+
+<br>
 
 ## Process Exit Codes
 
@@ -295,4 +295,6 @@ pwn.college{YnfHfWCxrRalJViaQ8l4O71K84_.dljN4UDL1ADO0czW}
 <br>  
 
 ### Flag: pwn.college{YnfHfWCxrRalJViaQ8l4O71K84_.dljN4UDL1ADO0czW}
+
+<br>
 
