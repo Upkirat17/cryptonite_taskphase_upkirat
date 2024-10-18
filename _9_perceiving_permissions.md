@@ -1,6 +1,7 @@
 ## Changing File Ownership
 
-### Lesson: Learnt how to change ownership of a file using ```chown``` command
+### Lesson:
+Learnt how to change ownership of a file using ```chown``` command
 The syntax is ```chown [username] [filename]```
 
 <br>
