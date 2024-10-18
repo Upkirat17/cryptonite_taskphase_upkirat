@@ -38,6 +38,7 @@ pwn.college{4w2bJs_AQ7J7g2f_6lOh1LUlkc_.dhzM4QDL1ADO0czW}
 Now I will sleep for a while (so that you could find me with 'ps').
 ```
 <br>  
+
 ### Flag: pwn.college{4w2bJs_AQ7J7g2f_6lOh1LUlkc_.dhzM4QDL1ADO0czW}
 
 ## Killing Processes
@@ -46,6 +47,7 @@ Now I will sleep for a while (so that you could find me with 'ps').
 Learned how to terminate a process using the ```kill``` command. Also got remindind of how piping works in the example question and applied that very principle in the answer too. 
 
 <br>  
+
 ### Code 
 
 ```bash
@@ -87,6 +89,7 @@ Good job! You have used Ctrl-C to interrupt this process! Here is your flag:
 pwn.college{EZlmVjKAi87EAJ_TrIZJFORR_L3.dNDN4QDL1ADO0czW}
 ```
 <br>  
+
 ### Flag: pwn.college{EZlmVjKAi87EAJ_TrIZJFORR_L3.dNDN4QDL1ADO0czW}
 
 ## Suspending Processes
@@ -126,6 +129,7 @@ Yay, I found another version of me! Here is the flag:
 pwn.college{ULcb4WQ1Yj4Ij-bxqC5pXtKU2zI.dVDN4QDL1ADO0czW}
 ```
 <br>  
+
 ### Flag: pwn.college{ULcb4WQ1Yj4Ij-bxqC5pXtKU2zI.dVDN4QDL1ADO0czW}
 
 ## Resuming Processes
@@ -152,6 +156,7 @@ Don't forget to press Enter to quit me!
 Goodbye!
 ```
 <br>  
+
 ### Flag: pwn.college{gsbWaIL5yk3p6s5yFLfqp6sijs9.dZDN4QDL1ADO0czW}
 
 ## Backgrounding Processes
@@ -203,6 +208,7 @@ Yay, I found another version of me running in the background! Here is the flag:
 pwn.college{cVh5plnkHUHUAocHSAr88qgAyb4.ddDN4QDL1ADO0czW}
 ```
 <br>  
+
 ### Flag: pwn.college{cVh5plnkHUHUAocHSAr88qgAyb4.ddDN4QDL1ADO0czW}
 
 ## Foregrounding Processes 
@@ -239,6 +245,7 @@ YES! Great job! I'm now running in the foreground. Hit Enter for your flag!
 pwn.college{0vq-4iPv6DdAVay_LG4z7Pz2RYE.dhDN4QDL1ADO0czW}
 ```
 <br>  
+
 ### Flag: pwn.college{0vq-4iPv6DdAVay_LG4z7Pz2RYE.dhDN4QDL1ADO0czW}
 
 ## Starting Backgrounded Processes
@@ -261,7 +268,8 @@ overlap weirdly with the shell prompt, but you're used to that by now...
 Anyways! Here is your flag!
 pwn.college{EGpT_gNBuS-YS_bRef5D3LoX9W0.dlDN4QDL1ADO0czW}
 ```
-<br>  
+<br>
+
 ### Flag: pwn.college{EGpT_gNBuS-YS_bRef5D3LoX9W0.dlDN4QDL1ADO0czW}
 
 ## Process Exit Codes
@@ -276,5 +284,6 @@ pwn.college{EGpT_gNBuS-YS_bRef5D3LoX9W0.dlDN4QDL1ADO0czW}
 
 ```
 <br>  
+
 ### Flag: 
 /
