@@ -3,21 +3,22 @@
 ### Lesson:  
 Learned how to use the ```ps``` funcion along with it's arguemtents like ```ef``` and ```aux```.
 
-```ps``` - Lists the processes running <br>
+```ps``` - Lists the processes running <br>    
 Standard Syntax:
-```ps -e``` - Lists every process <br>
-```ps -f``` - Gives full format output <br>
-```ps -ef``` - Makes use of ```e``` and ```f``` together. <br>
+```ps -e``` - Lists every process <br>  
+```ps -f``` - Gives full format output <br>  
+```ps -ef``` - Makes use of ```e``` and ```f``` together. <br>  
 
 BSD Syntax:
-```ps a``` - Lists processes for all users. <br>
-```ps u ``` - Gives a user readable output. <br>
-```ps x ``` - To list processes that aren't running on terminal. <br>
-```ps aux``` - Combine it all into a single argument. <br>
+```ps a``` - Lists processes for all users. <br>  
+```ps u ``` - Gives a user readable output. <br>  
+```ps x ``` - To list processes that aren't running on terminal. <br>  
+```ps aux``` - Combine it all into a single argument. <br>  
 
-```ps -ef``` and ```ps aux``` result in slightly different but cross-recognizable outputs. <br>
+```ps -ef``` and ```ps aux``` result in slightly different but cross-recognizable outputs. <br>  
 
-<br>
+<br>  
+
 ### Code 
 
 ```bash
@@ -36,7 +37,7 @@ Yahaha, you found me! Here is your flag:
 pwn.college{4w2bJs_AQ7J7g2f_6lOh1LUlkc_.dhzM4QDL1ADO0czW}
 Now I will sleep for a while (so that you could find me with 'ps').
 ```
-<br>
+<br>  
 ### Flag: pwn.college{4w2bJs_AQ7J7g2f_6lOh1LUlkc_.dhzM4QDL1ADO0czW}
 
 ## Killing Processes
@@ -44,7 +45,7 @@ Now I will sleep for a while (so that you could find me with 'ps').
 ### Lesson: 
 Learned how to terminate a process using the ```kill``` command. Also got remindind of how piping works in the example question and applied that very principle in the answer too. 
 
-<br>
+<br>  
 ### Code 
 
 ```bash
@@ -64,7 +65,7 @@ hacker@processes~killing-processes:~$ /challenge/run
 Great job! Here is your payment:
 pwn.college{wAEU0npf7byZz0lWvfU8ySaFSWp.dJDN4QDL1ADO0czW}
 ```
-<br>
+<br>  
 ### Flag: pwn.college{wAEU0npf7byZz0lWvfU8ySaFSWp.dJDN4QDL1ADO0czW}
 
 ## Interrupting Processes
@@ -72,7 +73,9 @@ pwn.college{wAEU0npf7byZz0lWvfU8ySaFSWp.dJDN4QDL1ADO0czW}
 
 ### Lesson: 
 Leanred how to interrupt a program without terminating it by pressing ```Ctrl + C```
-<br>
+
+<br>  
+
 ### Code 
 
 ```bash
@@ -83,14 +86,15 @@ you can force me to exit with Ctrl-C. Try it now!
 Good job! You have used Ctrl-C to interrupt this process! Here is your flag:
 pwn.college{EZlmVjKAi87EAJ_TrIZJFORR_L3.dNDN4QDL1ADO0czW}
 ```
-<br>
+<br>  
 ### Flag: pwn.college{EZlmVjKAi87EAJ_TrIZJFORR_L3.dNDN4QDL1ADO0czW}
 
 ## Suspending Processes
 
 ### Lesson: 
 Learned how to suspend processes to the background by holding ```Ctrl+Z```. Also learned that a copy of the process can be launched while it's suspended to the background.
-<br>
+<br>  
+
 ### Code 
 
 ```bash
@@ -121,7 +125,7 @@ root          91      89  0 19:31 pts/0    00:00:00 ps -f
 Yay, I found another version of me! Here is the flag:
 pwn.college{ULcb4WQ1Yj4Ij-bxqC5pXtKU2zI.dVDN4QDL1ADO0czW}
 ```
-<br>
+<br>  
 ### Flag: pwn.college{ULcb4WQ1Yj4Ij-bxqC5pXtKU2zI.dVDN4QDL1ADO0czW}
 
 ## Resuming Processes
@@ -130,6 +134,7 @@ pwn.college{ULcb4WQ1Yj4Ij-bxqC5pXtKU2zI.dVDN4QDL1ADO0czW}
 ### Lesson: 
 Learned how to resume processes by using ```fg``` command that puts a suspended task back onto the terminal.
 <br>
+
 ### Code 
 
 ```bash
@@ -146,16 +151,17 @@ Don't forget to press Enter to quit me!
 
 Goodbye!
 ```
-<br>
+<br>  
 ### Flag: pwn.college{gsbWaIL5yk3p6s5yFLfqp6sijs9.dZDN4QDL1ADO0czW}
 
 ## Backgrounding Processes
 
-<br>
+<br>  
 
 ### Lesson:
 Learned how to resume suspended processes in the background using ```bg``` command.
-<br>
+<br>  
+
 ### Code 
 
 ```bash
@@ -196,16 +202,17 @@ root          95 R+   ps -o user=UID,pid,stat,cmd
 Yay, I found another version of me running in the background! Here is the flag:
 pwn.college{cVh5plnkHUHUAocHSAr88qgAyb4.ddDN4QDL1ADO0czW}
 ```
-<br>
+<br>  
 ### Flag: pwn.college{cVh5plnkHUHUAocHSAr88qgAyb4.ddDN4QDL1ADO0czW}
 
 ## Foregrounding Processes 
 
-<br>
+<br>  
 
 ### Lesson: 
 
-<br>
+<br>  
+
 ### Code 
 
 ```bash
@@ -231,14 +238,15 @@ YES! Great job! I'm now running in the foreground. Hit Enter for your flag!
 
 pwn.college{0vq-4iPv6DdAVay_LG4z7Pz2RYE.dhDN4QDL1ADO0czW}
 ```
-<br>
+<br>  
 ### Flag: pwn.college{0vq-4iPv6DdAVay_LG4z7Pz2RYE.dhDN4QDL1ADO0czW}
 
 ## Starting Backgrounded Processes
 
 ### Lesson: 
 
-<br>
+<br>  
+
 ### Code 
 
 ```bash
@@ -253,19 +261,20 @@ overlap weirdly with the shell prompt, but you're used to that by now...
 Anyways! Here is your flag!
 pwn.college{EGpT_gNBuS-YS_bRef5D3LoX9W0.dlDN4QDL1ADO0czW}
 ```
-<br>
+<br>  
 ### Flag: pwn.college{EGpT_gNBuS-YS_bRef5D3LoX9W0.dlDN4QDL1ADO0czW}
 
 ## Process Exit Codes
 
 ### Lesson: 
 
-<br>
+<br>  
+
 ### Code 
 
 ```bash
 
 ```
-<br>
+<br>  
 ### Flag: 
 /
