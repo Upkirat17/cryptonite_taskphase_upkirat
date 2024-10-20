@@ -12,6 +12,7 @@ Learned how to print variables in Linux.
 <br>
 
 ### Flag: ```pwn.college{4IucZUNqGq0dqZuiuuvo5QbMlgN.ddTN1QDL1ADO0czW}```
+<br>
 
 ## Setting Variables
 
@@ -46,6 +47,7 @@ Learned that you can't add a space when assigning variables  without using ```" 
 <br>
 
 ### Flag: ```pwn.college{oMdv6U3GVIhUCknpFBdGmW9dV8c.dBjN1QDL1ADO0czW} ```
+<br>
 
 ## Exporting Variables
 
@@ -92,6 +94,8 @@ Learned the ```env``` command and how it works.
 
 ### Flag: ``` pwn.college{4ZO4ViBmvjirgOK0ooBNgsRIOLs.dhTN1QDL1ADO0czW}```
 
+<br>
+
 ## Storing Command Output
 
 ### Code:
@@ -127,6 +131,7 @@ Learned how to use ```read``` to take inputs to variables.
 <br>
 
 ### Flag: ``` pwn.college{MDEYZM7bSyd_KGdGe_dLYKDUfef.dhzN1QDL1ADO0czW} ```
+<br>
 
 ## Reading Files
 
