@@ -32,7 +32,7 @@ Steps to create a shell:
 <br>
 
 ### Code:
-```bash
+```
 hacker@chaining~your-first-shell-script:~$ touch x.sh
 hacker@chaining~your-first-shell-script:~$ chmod ugo+rwx x.sh
 hacker@chaining~your-first-shell-script:~$ nano x.sh
@@ -53,7 +53,7 @@ hacker@chaining~your-first-shell-script:~$
 <br>
 
 ### Code:
-```bash
+```
 
 ```
 <br>
@@ -68,7 +68,7 @@ hacker@chaining~your-first-shell-script:~$
 <br>
 
 ### Code:
-```bash
+```
 
 ```
 <br>
