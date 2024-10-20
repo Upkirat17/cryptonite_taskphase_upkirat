@@ -25,8 +25,7 @@ pwn.college{cG1PCpdM0LGzLzw-ztEYvO1MO3d.dZzNwUDL1ADO0czW}
 Learned how to invoke scripts or commands by their bare name by overwriting PATH with their directories. <br>
 For eg. ```/challenge/more_commands/win``` would be one way to run the ```win``` command. But it can get annoying typing the entire path again and again if we have multiple commands in the same directory. So, an alternative method could be: <br>
 ```PATH="/challenge_more_commands"```. <br>
-Now, we can invoke the ```win``` command without typing the entire path. The question required ```win``` to be an argument to ```/challenge/run```, so we can just type <br>
-```/challenge/run win``` to get the flag.
+Now, we can invoke the ```win``` command without typing the entire path. The question required ```win``` to be an argument to ```/challenge/run```, so we can just type ```/challenge/run win``` to get the flag.
 
 <br>
 
@@ -44,7 +43,7 @@ pwn.college{MaxlIhWpnppn40_u371QLXCAQ8-.dVzNyUDL1ADO0czW}
 ### Flag: pwn.college{MaxlIhWpnppn40_u371QLXCAQ8-.dVzNyUDL1ADO0czW}
 <br>
 
-##
+##  Adding Commands
 
 ### Lesson:
 
@@ -52,12 +51,26 @@ pwn.college{MaxlIhWpnppn40_u371QLXCAQ8-.dVzNyUDL1ADO0czW}
 
 ### Code:
 ```
+hacker@path~adding-commands:~$ cd ~
+hacker@path~adding-commands:~$ $flag
+hacker@path~adding-commands:~$ nano win
+hacker@path~adding-commands:~$ chmod +x win
+hacker@path~adding-commands:~$ PATH=/home/hacker
+hacker@path~adding-commands:~$ /challenge/run
+Invoking 'win'....
+pwn.college{AJM2F4gcRar4tmHpvXBqDFNmgeW.dZzNyUDL1ADO0czW}
+hacker@path~adding-commands:~$
 
+```
+Contents of the ```win``` file: <br>
+```
+read flag < /flag
+echo $flag
 ```
 
 <br>
 
-### Flag: 
+### Flag: pwn.college{AJM2F4gcRar4tmHpvXBqDFNmgeW.dZzNyUDL1ADO0czW}
 <br>
 
 ##
