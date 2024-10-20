@@ -71,18 +71,24 @@ Correct! Here is your flag:
 
 <br>
 
-##
+## Executable Shell Scripts
 
 ### Lesson:
-
+Learned how to execute a shell script without the use of bash.
+It can be simply done by providing the relative or the absolute path of the shell script.
 <br>
 
 ### Code:
 ```
-
+hacker@chaining~executable-shell-scripts:~$ touch script.sh
+hacker@chaining~executable-shell-scripts:~$ chmod ugo+x script.sh
+hacker@chaining~executable-shell-scripts:~$ nano script.sh
+hacker@chaining~executable-shell-scripts:~$ ./script.sh
+Congratulations on your shell script execution! Your flag:
+pwn.college{0GiQk5gzRfT3WXdv56gIzSkEVtL.dRzNyUDL1ADO0czW}
 ```
 <br>
 
-### Flag:
+### Flag: pwn.college{0GiQk5gzRfT3WXdv56gIzSkEVtL.dRzNyUDL1ADO0czW}
 
 <br>
