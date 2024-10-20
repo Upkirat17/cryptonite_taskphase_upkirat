@@ -47,19 +47,27 @@ hacker@chaining~your-first-shell-script:~$
 
 <br>
 
-##
+## Redirecting Script Output
 
 ### Lesson:
-
+Learned how to pipe multiple outputs into a single command using chained commands in a shell and the pipe operator ```|```.
+It was simple. Create the output.sh file, chain the given commands in it using semicolon ```;```, and run <br>
+```bash output.sh | /challenge/solve```.
 <br>
 
 ### Code:
 ```
-
+hacker@chaining~redirecting-script-output:~$ touch output.sh
+hacker@chaining~redirecting-script-output:~$ chmod +x /output.sh
+chmod: cannot access '/output.sh': No such file or directory
+hacker@chaining~redirecting-script-output:~$ chmod +x output.sh
+hacker@chaining~redirecting-script-output:~$ nano  output.sh
+hacker@chaining~redirecting-script-output:~$ bash output.sh | /challenge/solve
+Correct! Here is your flag:
 ```
 <br>
 
-### Flag:
+### Flag: pwn.college{84l0DCkDdMbPnt-dS75xSk54ERQ.dhTM5QDL1ADO0czW}
 
 <br>
 
